@@ -13,11 +13,11 @@ create  table tb_produtos(
 
 
 
-id bigint auto_increment,		
+id bigint auto_increment ,		
 nome varchar(255) not null, 
-preco decimal (2) not null,                 
+preco decimal (2) not null,             
 
-primary key(id) 
+primary key(id)
 
 );
 

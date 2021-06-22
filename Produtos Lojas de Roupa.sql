@@ -20,7 +20,10 @@ insert into tb_produtos (bones, celulares, tennis, precos) values("SPFC", "Redmi
 insert into tb_produtos (bones, celulares, tennis, precos) values("Generation", "S20", "Jota pê", 500.00);
 insert into tb_produtos (bones, celulares, tennis, precos) values("Vida que Segue", "Redmi 5", "Nike", 600.00);
 
-select*from tb_produtos;
+SELECT 
+    *
+FROM
+    tb_produtos;
 
 select * from tb_produtos where precos > 500;
 select * from tb_produtos where precos < 500;

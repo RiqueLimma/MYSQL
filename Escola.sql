@@ -20,7 +20,7 @@ insert into tb_secretaria (alunos, faltas, notas, historico) values("Allan",350,
 insert into tb_secretaria (alunos, faltas, notas, historico) values ("Antonio",300, 4.5, "Ruim");
 insert into tb_secretaria (alunos, faltas, notas, historico) values("Leandro",08, 10.0, "Ótimo");
 insert into tb_secretaria (alunos, faltas, notas, historico) values("Ryan",200, 4.0, "Ruim");
-insert into tb_secretaria (alunos, faltas, notas, historico) values("Bruno",10, 9.0, "Péssimo");
+insert into tb_secretaria (alunos, faltas, notas, historico) values("Tonny",10, 9.0, "Péssimo");
 
 select*from tb_secretaria;
 
